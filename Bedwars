@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CreamyWare/CreamyWare/main/NewMainScript.lua", true))()
