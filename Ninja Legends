@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmeloxRUS/ninjalegendscripts/refs/heads/main/HelixScripts"))()
