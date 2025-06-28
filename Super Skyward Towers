@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bassam-star/SweetHub-uni/refs/heads/main/Super%20Skyward%20Towers.lua"))()
