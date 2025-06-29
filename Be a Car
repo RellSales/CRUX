@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/404nethunter/hyperx/refs/heads/main/be-a-car/autofarm.lua"))()
