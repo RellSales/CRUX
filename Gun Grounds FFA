@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viniciusroger/roblox_scripts/refs/heads/main/ffa_changegun.lua"))()
