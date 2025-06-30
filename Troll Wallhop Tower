@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noritery/twt-killall/refs/heads/main/main.lua"))()
