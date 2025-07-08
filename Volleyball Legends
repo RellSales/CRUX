@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bb16268/Zeckhub/refs/heads/main/Zeckhubv1"))()
