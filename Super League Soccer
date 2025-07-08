@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithEsa/Esan-Hub-v2-/refs/heads/main/script%20Esan"))()
