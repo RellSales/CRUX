@@ -1,0 +1,7 @@
+-- settings
+getgenv().farmTickets = true -- maybe works
+getgenv().farmRevives = false
+getgenv().noRender = false
+getgenv().TrackMePlease = true -- optional tracking
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LabyCatUser/rawr/refs/heads/main/evade.lua'))()
