@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MjContiga1/a03b8ce32a05ee1c79e48c8356146c5b/raw/a4795a57d749007c6aff0e1ec85df037b90bc4af/Lumber.lua"))()
