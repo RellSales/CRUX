@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/elton12314/Server-simulator/main/a.lua"))()
