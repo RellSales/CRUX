@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MjContiga1/0eff9eb39e388b384a3bbbbe09560240/raw/a8eefd3ff0d32254af58964e3091baf6af4fc764/Scoot.lua"))()
