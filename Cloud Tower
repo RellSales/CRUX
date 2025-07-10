@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MjContiga1/1d0e2a48532565d0acbd13937ee9eea8/raw/47d594d86f34215703875c37ebf679b2041b5333/Cloud%2520Tower.lua"))()
