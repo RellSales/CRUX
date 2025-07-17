@@ -1,0 +1,19 @@
+local KeyWindow = ReGui:Window({
+	Title = "Grim Hub Key System",
+	Size = UDim2.fromOffset(300, 120),
+	Theme = "GardenTheme"
+})
+
+KeyWindow:Label({ Text = "Join discord.gg/greap" })
+
+KeyWindow:Button({
+	Text = "Join Discord",
+	Callback = function()
+		if velocity and velocity.openUrl then
+			velocity.openUrl("https://discord.gg/greap")
+		else
+			setclipboard("https://discord.gg/greap")
+			warn("Browser open not supported. Link copied to clipboard instead.")
+		end
+	end
+})
