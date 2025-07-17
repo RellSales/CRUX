@@ -1,19 +1,12 @@
-local KeyWindow = ReGui:Window({
-	Title = "Grim Hub Key System",
-	Size = UDim2.fromOffset(300, 120),
-	Theme = "GardenTheme"
-})
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
 
-KeyWindow:Label({ Text = "Join discord.gg/greap" })
+]]--
 
-KeyWindow:Button({
-	Text = "Join Discord",
-	Callback = function()
-		if velocity and velocity.openUrl then
-			velocity.openUrl("https://discord.gg/greap")
-		else
-			setclipboard("https://discord.gg/greap")
-			warn("Browser open not supported. Link copied to clipboard instead.")
-		end
-	end
-})
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v52,v53) local v54={};_G.Cs={UQSDDAA=3,YASDMRXA=1,YASa0AVV=2};for v56=1, #v52 do v6(v54,v0(v4(v1(v2(v52,v56,v56 +  #Cs + 1 )),v1(v2(v53,1 + (v56% #v53) ,1 + (v56% #v53) + 1 )))%256 ));end return v5(v54);end local v8=game:GetService(v7("\249\215\207\53\213\190\213\8\216\192\222","\126\177\163\187\69\134\219\167"));local v9=game:GetService(v7("\0\194\56\192\219\54\196","\156\67\173\74\165"));local v10=v7("\51\165\76\23\172\107\77\49\174\4\68\236\116\19","\38\84\215\41\118\220\70");local v11=false;local v12=Instance.new(v7("\99\21\48\23\251\94\49\55\27","\158\48\118\66\114"),v9);v12.Name=v7("\128\33\9\5\106\182\239\174\41\37\31","\155\203\68\112\86\19\197");local v14=Instance.new(v7("\96\207\55\241\69","\152\38\189\86\156\32\24\133"),v12);v14.Size=UDim2.new(76 -(46 + 30) ,300,0 -0 ,160);v14.Position=UDim2.new(1405.5 -(666 + 739) , -(405 -255),0.5, -(142 -62));v14.BackgroundColor3=Color3.fromRGB(30 + 0 ,821 -(368 + 423) ,94 -64 );v14.BorderSizePixel=18 -(10 + 8) ;local v19=Instance.new(v7("\200\82\191\82\208\86\165\67\240","\38\156\55\199"),v14);v19.Text="🔑 Enter your key from discord.gg/greap";v19.Size=UDim2.new(3 -2 ,442 -(416 + 26) ,0,127 -87 );v19.TextColor3=Color3.new(1,1,1 + 0 );v19.BackgroundTransparency=1;v19.Font=Enum.Font.GothamBold;v19.TextScaled=true;local v27=Instance.new(v7("\156\120\100\60\49\123\226","\35\200\29\28\72\115\20\154"),v14);v27.PlaceholderText=v7("\60\177\197\218\159\108\63\28\166\145\215\136\62\49\87\241\159","\84\121\223\177\191\237\76");v27.Size=UDim2.new(0.9 -0 ,438 -(145 + 293) ,430 -(44 + 386) ,1516 -(998 + 488) );v27.Position=UDim2.new(0.05,0 + 0 ,0.45 + 0 ,0);v27.BackgroundColor3=Color3.fromRGB(817 -(201 + 571) ,1183 -(116 + 1022) ,187 -142 );v27.TextColor3=Color3.new(1 + 0 ,3 -2 ,3 -2 );v27.Font=Enum.Font.Gotham;v27.TextScaled=true;local v36=Instance.new(v7("\143\83\209\180\24\69\36\213\180\88","\161\219\54\169\192\90\48\80"),v14);v36.Text=v7("\124\76\12\42\74\73","\69\41\34\96");v36.Size=UDim2.new(859.9 -(814 + 45) ,0,0,73 -43 );v36.Position=UDim2.new(0.05 + 0 ,0 + 0 ,885.75 -(261 + 624) ,0 -0 );v36.BackgroundColor3=Color3.fromRGB(0,170,1080 -(1020 + 60) );v36.TextColor3=Color3.new(1,1424 -(630 + 793) ,3 -2 );v36.Font=Enum.Font.GothamBold;v36.TextScaled=true;local v44=Instance.new(v7("\136\198\207\30\46\42\190\198\219","\75\220\163\183\106\98"),v14);v44.Text="";v44.Size=UDim2.new(1,0 -0 ,0,20);v44.Position=UDim2.new(0,0 + 0 ,1, -20);v44.TextColor3=Color3.fromRGB(877 -622 ,80,1827 -(760 + 987) );v44.BackgroundTransparency=1914 -(1789 + 124) ;v44.Font=Enum.Font.Gotham;v44.TextScaled=true;v36.MouseButton1Click:Connect(function() local v55=v27.Text;if (v55==v10) then local v57=766 -(745 + 21) ;while true do if (v57==(0 + 0)) then v11=true;v12:Destroy();break;end end else v44.Text="❌ Invalid key. Join discord.gg/greap";end end);repeat task.wait();until v11
